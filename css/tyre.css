@@ -1,0 +1,31 @@
+/* style.css */
+
+/* Body and font */
+body {
+  background-color: #f8f9fa; /* light gray */
+  font-family: Arial, sans-serif;
+}
+
+/* Card styling */
+.card {
+  max-width: 500px;  /* keep form narrow */
+  margin: auto;      /* center on page */
+  border-radius: 10px;
+}
+
+/* Card header styling */
+.card-header {
+  border-bottom: 2px solid #0056b3;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

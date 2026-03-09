@@ -1,0 +1,102 @@
+/* Full page background */
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3a5f, #2e75b6);
+}
+
+/* Container for logo + form */
+.login_container {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Logo styling */
+.logo img {
+    width: 120px;
+    margin-bottom: 25px;
+}
+
+/* Form title */
+.login_form h2 {
+    margin-bottom: 25px;
+    color: #1e3a5f;
+}
+
+/* Input groups */
+.input_group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input_group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.input_group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input_group input:focus {
+    border-color: #2e75b6;
+    box-shadow: 0 0 5px rgba(46, 117, 182, 0.5);
+}
+
+/* Options row */
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #2e75b6;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+/* Login button */
+.login_btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e3a5f;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.login_btn:hover {
+    background-color: #2e75b6;
+}
+
+/* Responsive tweak for small screens */
+@media (max-width: 400px) {
+    .login_container {
+        width: 90%;
+        padding: 30px 20px;
+    }
+}
